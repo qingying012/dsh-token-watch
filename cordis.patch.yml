@@ -1,0 +1,5 @@
+# dsh bundle layer: mount the token usage watcher.
+# Loaded by DeepSeek Harness from package.json's dsh.bundle manifest.
+- insert:
+    - id: dsh-token-watch
+      name: dsh-token-watch

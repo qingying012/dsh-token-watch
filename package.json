@@ -1,0 +1,39 @@
+{
+  "name": "dsh-token-watch",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: watch session token usage and pop a whale-styled desktop alert when a threshold is crossed.",
+  "author": "qingying012",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "token",
+    "usage",
+    "monitor",
+    "cost"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./dsh/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dsh",
+    "assets",
+    "scripts",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "scripts": {
+    "selftest": "node scripts/selftest.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
