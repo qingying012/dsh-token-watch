@@ -1,8 +1,16 @@
 {
   "name": "dsh-token-watch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DeepSeek Harness plugin: watch session token usage and pop a whale-styled desktop alert when a threshold is crossed.",
   "author": "qingying012",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingying012/dsh-token-watch.git"
+  },
+  "homepage": "https://github.com/qingying012/dsh-token-watch#readme",
+  "bugs": {
+    "url": "https://github.com/qingying012/dsh-token-watch/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
